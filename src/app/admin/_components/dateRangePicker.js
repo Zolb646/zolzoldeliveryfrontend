@@ -32,7 +32,7 @@ export function DateRangePicker({ value, onChange }) {
             id="date"
             variant={"outline"}
             className={cn(
-              "w-[320px] justify-start text-left font-normal rounded-full ",
+              "w-84 justify-start text-left font-normal rounded-full ",
               !internalDate && "text-muted-foreground"
             )}
           >
